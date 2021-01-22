@@ -1,5 +1,3 @@
-from headhunter import extract_max_page, extract_hh_jobs
+from head_hunter_parser import head_hunter_parser
 
-max_page = extract_max_page()
-
-extract_hh_jobs(max_page)
+head_hunter_parser.get_jobs()
